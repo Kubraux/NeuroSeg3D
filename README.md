@@ -48,7 +48,12 @@ The PyQt6 and PyVista-based desktop application enables users to load multimodal
 The interface also provides tumor volume calculations and PNG screenshot export.
 
 *GUI screenshots and a demonstration will be added.*
+### Application Preview
 
+![NeuroSeg3D Graphical User Interface](assets/gui_preview.png)
+
+*NeuroSeg3D desktop interface for multimodal MRI
+segmentation and interactive 3D tumor visualization.*
 ## Technologies
 
 Python · PyTorch · 3D CNN · NumPy · NiBabel · PyQt6 · PyVista · BraTS 2021
