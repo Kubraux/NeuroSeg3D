@@ -22,6 +22,14 @@ Three model configurations were evaluated:
 3. **Model-3:** Advanced Residual UNet3D incorporating residual connections.
 
 The training pipeline includes intensity normalization, label remapping, AdamW optimization, automatic mixed precision (AMP), and early stopping.
+### Advanced Residual UNet3D Architecture
+
+![Advanced Residual UNet3D Architecture](assets/model_architecture.png)
+
+The proposed architecture employs a 3D encoder-decoder
+structure with residual blocks and skip connections
+to preserve volumetric spatial information and
+improve brain tumor subregion segmentation.
 
 ## Experimental Results
 
