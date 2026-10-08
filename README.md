@@ -42,6 +42,15 @@ The following results were obtained on the BraTS 2021 test split.
 | Model-3 | **83.42** | 11.77 | **74.62** |
 
 Model-3 achieved the highest mean Dice and mIoU scores, while Model-2 achieved the lowest mean HD95.
+### Model Performance Comparison
+
+![Dice and mIoU Comparison](assets/segmentation_performance.png)
+
+![HD95 Comparison](assets/hd95_comparison.png)
+
+Model-3 achieved the highest mean Dice (83.42%)
+and mIoU (74.62%), whereas Model-2 obtained the
+lowest mean HD95 (9.35 mm).
 
 **Advanced Residual UNet3D Dice Scores:**
 
