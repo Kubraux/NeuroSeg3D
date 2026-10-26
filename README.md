@@ -2,6 +2,13 @@
 **Deep Learning-Based 3D Brain Tumor Segmentation and Visualization**
 
 NeuroSeg3D is a deep learning-based project for automated 3D brain tumor segmentation from multimodal MRI scans. Developed using PyTorch and the BraTS 2021 dataset, the system combines volumetric segmentation with an interactive desktop visualization interface.
+[![Latest Release](https://img.shields.io/github/v/release/Kubraux/NeuroSeg3D?label=Latest%20Release)](https://github.com/Kubraux/NeuroSeg3D/releases/latest)
+
+### Download Windows Application
+
+**[Download NeuroSeg3D for Windows (v0.1.0)](https://github.com/Kubraux/NeuroSeg3D/releases/download/v0.1.0/brain_tumor_segmentation_gui_app.zip)**
+
+The Windows application includes a pretrained brain tumor segmentation model. No additional model training is required.
 
 ## Key Features
 
