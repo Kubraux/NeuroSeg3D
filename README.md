@@ -74,6 +74,24 @@ segmentation and interactive 3D tumor visualization.*
 ## Technologies
 
 Python · PyTorch · 3D CNN · NumPy · NiBabel · PyQt6 · PyVista · BraTS 2021
+## Roadmap — NeuroSeg3D V2
+
+The next version of NeuroSeg3D aims to introduce
+a modular model integration framework, allowing
+researchers to import compatible pretrained
+segmentation models and perform inference through
+a unified graphical interface.
+
+Planned features:
+
+- Custom pretrained model import and management
+- Model compatibility and input validation
+- Support for multiple segmentation architectures
+- Side-by-side prediction visualization
+- Quantitative evaluation when ground-truth masks are available
+- Segmentation mask and analysis export
+
+**Status:** Planned — not yet implemented.
 
 ## Project Status
 
