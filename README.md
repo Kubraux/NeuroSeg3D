@@ -71,7 +71,6 @@ The PyQt6 and PyVista-based desktop application enables users to load multimodal
 
 The interface also provides tumor volume calculations and PNG screenshot export.
 
-*GUI screenshots and a demonstration will be added.*
 ### Application Preview
 
 ![NeuroSeg3D Graphical User Interface](assets/gui_preview.png)
@@ -105,11 +104,7 @@ The Cancer Imaging Archive (TCIA) additionally requests a dataset-specific citat
 
 ## Roadmap — NeuroSeg3D V2
 
-The next version of NeuroSeg3D aims to introduce
-a modular model integration framework, allowing
-researchers to import compatible pretrained
-segmentation models and perform inference through
-a unified graphical interface.
+The next version of NeuroSeg3D aims to introduce a modular model integration framework, allowing researchers to import compatible pretrained segmentation models and perform inference through a unified graphical interface.
 
 Planned features:
 
@@ -120,11 +115,20 @@ Planned features:
 - Quantitative evaluation when ground-truth masks are available
 - Segmentation mask and analysis export
 
-**Status:** Planned — not yet implemented.
+### Research Directions: Attention-Based Segmentation
+
+Future experiments will investigate attention mechanisms for multimodal brain tumor segmentation, including attention-gated 3D U-Net variants and selected attention/Transformer-based architectures. These models will be evaluated against the current 3D U-Net and Advanced Residual UNet3D baselines using consistent data splits and segmentation metrics (Dice, mIoU, and HD95). The goal is to study potential improvements in tumor localization and subregion delineation while assessing computational cost and inference efficiency.
+
+**Status:** Planned research; no attention-based models or associated results are included in the current release.
+
+**V2 status:** Planned — not yet implemented.
 
 ## Project Status
 
-The research results and project documentation are available. Source code, installation instructions, and model deployment assets will be added following repository preparation.
+- **Available now:** Project overview, architecture and GUI previews, experimental results, dataset references, and a downloadable Windows desktop application with a pretrained segmentation model (v0.1.0).
+- **Source code (planned):** The Python source code for preprocessing, model architectures, training, evaluation, inference, and the PyQt6/PyVista interface will be added after the existing files have been recovered, organized, and checked for reproducibility and sensitive data. These source files are **not yet publicly available**.
+- **Documentation (planned):** Installation requirements, reproducible execution instructions, and implementation details will be completed alongside the code release.
+- **Future research (planned):** Attention-enhanced segmentation experiments and a modular model-import workflow for NeuroSeg3D V2.
 
 ## Contributors
 
