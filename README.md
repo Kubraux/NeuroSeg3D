@@ -14,8 +14,8 @@ The Windows application includes a pretrained brain tumor segmentation model. No
 
 - **Multimodal MRI Processing:** T1, T1ce, T2, and FLAIR sequences.
 - **3D Deep Learning:** Standard 3D U-Net and Advanced Residual UNet3D architectures.
-- **Tumor Subregion Segmentation:** Necrotic Core (NCR), Peritumoral Edema (ED), and Enhancing Tumor (ET).
-- **Multi-Planar Visualization:** Axial, sagittal, and coronal MRI views.
+- **Tumor Subregion Segmentation:** Necrotic Core (NCR), Peritumoral Edema (ED) and Enhancing Tumor (ET).
+- **Multi-Planar Visualization:** Axial, sagittal and coronal MRI views.
 - **Interactive 3D Visualization:** Tumor structure visualization using PyVista.
 - **Volumetric Analysis:** Calculation of tumor subregion volumes.
 - **Desktop GUI:** Developed using PyQt6 and PyVista.
@@ -125,8 +125,8 @@ Future experiments will investigate attention mechanisms for multimodal brain tu
 
 ## Project Status
 
-- **Available now:** Project overview, architecture and GUI previews, experimental results, dataset references, and a downloadable Windows desktop application with a pretrained segmentation model (v0.1.0).
-- **Source code (planned):** The Python source code for preprocessing, model architectures, training, evaluation, inference, and the PyQt6/PyVista interface will be added after the existing files have been recovered, organized, and checked for reproducibility and sensitive data. These source files are **not yet publicly available**.
+- **Available now:** Project overview, architecture and GUI previews, experimental results, dataset references and a downloadable Windows desktop application with a pretrained segmentation model (v0.1.0).
+- **Source code (planned):** The Python source code for preprocessing, model architectures, training, evaluation, inference and the PyQt6/PyVista interface will be added after the existing files have been recovered, organized, and checked for reproducibility and sensitive data. These source files are **not yet publicly available**.
 - **Documentation (planned):** Installation requirements, reproducible execution instructions, and implementation details will be completed alongside the code release.
 - **Future research (planned):** Attention-enhanced segmentation experiments and a modular model-import workflow for NeuroSeg3D V2.
 
