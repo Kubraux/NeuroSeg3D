@@ -133,7 +133,7 @@ Future experiments will investigate attention mechanisms for multimodal brain tu
 ## Contributors
 
 - Kübra Yiğit
-- Begüm Beraye Atalay
+- Begüm Beraye Atalay (https://github.com/beraye)
 
 **Academic Supervisor:** Dr. Öğr. Üyesi Gürkan Aydemir
 
